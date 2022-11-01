@@ -52,10 +52,6 @@ npm run dev
 npm run dev -- --open
 ```
 
-Page Routes:
-- 404 Page: http://127.0.0.1:3000/*404
-- Index: http://127.0.0.1:3000/
-
 ## Building
 
 Solid apps are built with _adapters_, which optimise your project for deployment to different environments.
