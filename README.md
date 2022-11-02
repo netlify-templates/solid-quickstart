@@ -4,7 +4,7 @@
 
 
 
-A Solid Quickstart template that will get you started on everything you need to build a Solid project, powered by [`solid-start`](https://github.com/ryansolid/solid-start/tree/master/packages/solid-start);
+A Solid Quickstart template that will get you started with everything you need to build a Solid project, powered by [`solid-start`](https://github.com/ryansolid/solid-start/tree/master/packages/solid-start);
 
 Click the below button to quickly create a new repo, create a new Netlify project, and deploy!
 
