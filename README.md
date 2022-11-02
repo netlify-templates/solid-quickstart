@@ -1,6 +1,6 @@
 # SolidStart
 
-<!-- Banner Here -->
+![solid (3)](https://user-images.githubusercontent.com/43764894/199539679-a1b9fbcb-3ec5-4fd7-b2d9-5cc25b248295.png)
 
 
 
