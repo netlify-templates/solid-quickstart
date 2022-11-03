@@ -1,0 +1,15 @@
+[build]
+  command = "solid-start build"
+  functions = "netlify/functions"
+  publish = "netlify"
+
+[[plugins]] 
+  package = "netlify-plugin-cypress"
+
+  [plugins.inputs.postBuild]
+    enable = true
+  
+  [plugin.inputs]
+    enable = false
+
+  ## more info on configuring this file: https://www.netlify.com/docs/netlify-toml-reference/
