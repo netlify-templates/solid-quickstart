@@ -2,5 +2,13 @@
   command = "solid-start build"
   functions = "netlify/functions"
   publish = "netlify"
+ 
+ [[redirects]]
+  from = "/"
+  to = "https://www.google.com"
+  status = 200
+  force = false
+  query = {path = ":path"}
+  conditions = {Language = ["en"], Country = ["US"], Role = ["admin"]}
 
   ## more info on configuring this file: https://www.netlify.com/docs/netlify-toml-reference/
