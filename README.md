@@ -1,6 +1,6 @@
 # SolidStart
 
-![solid (3)](https://user-images.githubusercontent.com/43764894/199539679-a1b9fbcb-3ec5-4fd7-b2d9-5cc25b248295.png)
+![Netlify + Solid](https://user-images.githubusercontent.com/43764894/223558736-6cf48156-2316-419d-8be9-e318ecf0e4be.png)
 
 
 
