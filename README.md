@@ -1,43 +1,12 @@
-# SolidStart
+# Solid Quickstart
 
 ![Netlify + Solid](https://user-images.githubusercontent.com/43764894/223558736-6cf48156-2316-419d-8be9-e318ecf0e4be.png)
 
-
-
-A Solid Quickstart template that will get you started with everything you need to build a Solid project, powered by [`solid-start`](https://github.com/ryansolid/solid-start/tree/master/packages/solid-start);
-
-Click the below button to quickly create a new repo, create a new Netlify project, and deploy!
+This template's goal is to showcase the routing features of Solid.
+It also showcase how the router and Suspense work together to parallelize data fetching tied to a route via the `.data.ts` pattern.
 
 [![Deploy to Netlify Button](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/netlify-templates/solid-quickstart?utm_campaign=template-team&utm_source=dtn-button&utm_medium=dtn-button&utm_term=solid-qt-dtn-button&utm_content=solid-qt-dtn-button)
 
-## Table of Contents
-- [Project Structure](#project-structure)
-- [Getting Started](#getting-started)
-- [Building](#building)
-- [Deploying using the Netlify CLI](#deploying-using-the-netlify-cli)
-
-## Project Structure
-
-Inside of your Solidjs project, you'll see the following folders and files:
-
-```
-/
-├── public/
-│   └── favicon.ico
-├── src/
-│   ├── components/
-│   │   └── Counter.css
-│   │   └── Counter.tsx
-│   └── routes/
-│       └── [...404].tsx
-│       └── index.tsx
-├── entry-client.tsx
-├── entry-server.tsx
-├── root.css
-├── root.tsx
-├── package.json
-└── vite.config.json
-```
 
 ## Getting Started
 
@@ -52,13 +21,16 @@ npm run dev
 npm run dev -- --open
 ```
 
-## Building
+### `npm run build`
 
-Solid apps are built with _adapters_, which optimise your project for deployment to different environments.
+Builds the app for production to the `dist` folder.<br>
+It correctly bundles Solid in production mode and optimizes the build for the best performance.
 
-By default, `npm run build` will generate a Node app that you can run with `npm start`. To use a different adapter, add it to the `devDependencies` in `package.json` and specify in your `vite.config.js`.
+The build is minified and the filenames include the hashes.<br>
+Your app is ready to be deployed!
 
 ## Deploying using the Netlify CLI
+
 - Install the Netlify CLI globally `npm install netlify-cli -g`
     
 - Run `npm run build`
@@ -71,4 +43,6 @@ Here are a few other ways you can deploy this template:
     
 - If you want to utilize continuous deployment through GitHub webhooks, run the Netlify command `netlify init` to create a new project based on your repo or `netlify link` to connect your repo to an existing project
 
-Hope this template helps :) Happy coding 👩🏻‍💻!
+## Support
+
+If you get stuck along the way, get help in our [support forums](https://answers.netlify.com/).
