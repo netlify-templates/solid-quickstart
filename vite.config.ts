@@ -1,7 +1,12 @@
-import solid from "solid-start/vite";
-import netlify from "solid-start-netlify";
-import { defineConfig } from "vite";
+import { defineConfig } from 'vite';
+import solidPlugin from 'vite-plugin-solid';
 
 export default defineConfig({
-  plugins: [solid({ adapter: netlify() })],
+  plugins: [solidPlugin()],
+  server: {
+    port: 3000,
+  },
+  build: {
+    target: 'esnext',
+  },
 });
