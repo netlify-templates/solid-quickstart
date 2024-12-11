@@ -1,25 +1,24 @@
 {
-  "name": "solid-quickstart",
-  "scripts": {
-    "dev": "solid-start dev",
-    "build": "solid-start build",
-    "start": "solid-start start"
-  },
+  "name": "vite-template-solid",
+  "version": "0.0.0",
+  "description": "",
   "type": "module",
+  "scripts": {
+    "start": "vite",
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "license": "MIT",
   "devDependencies": {
-    "cypress": "^10.11.0",
-    "solid-start-netlify": "^0.1.0",
-    "typescript": "^4.8.3",
-    "vite": "^3.1.0"
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.49",
+    "tailwindcss": "^3.4.15",
+    "vite": "^6.0.0",
+    "vite-plugin-solid": "^2.11.0"
   },
   "dependencies": {
-    "@solidjs/meta": "^0.28.0",
-    "@solidjs/router": "^0.5.0",
-    "solid-js": "^1.5.7",
-    "solid-start": "^0.1.0",
-    "undici": "^5.10.0"
-  },
-  "engines": {
-    "node": ">=16"
+    "@solidjs/router": "^0.15.1",
+    "solid-js": "^1.9.3"
   }
 }
