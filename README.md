@@ -5,8 +5,13 @@
 This template's goal is to showcase the routing features of Solid.
 It also showcase how the router and Suspense work together to parallelize data fetching tied to a route via the `.data.ts` pattern.
 
+## Deploy to Netlify
+
+Want to deploy immediately? Click this button
+
 [![Deploy to Netlify Button](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/netlify-templates/solid-quickstart?utm_campaign=template-team&utm_source=dtn-button&utm_medium=dtn-button&utm_term=solid-qt-dtn-button&utm_content=solid-qt-dtn-button)
 
+Clicking this button will create a new repo that looks exactly like this one and will set it up for immediate deployment on Netlify.
 
 ## Getting Started
 
